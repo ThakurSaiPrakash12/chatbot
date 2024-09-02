@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div id="chat" class="chat">
+            <div id="messages" class="messages"></div>
+            <div class="input-container">
+                <input id="input" type="text" placeholder="Type your message here..." autocomplete="off" autofocus>
+                <input type="date" id="date-input" style="display:none;">
+                <button id="submit-button" onclick="handleSubmit()">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+        <img src="bot.png" alt="Robot cartoon" height="500vh">
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
